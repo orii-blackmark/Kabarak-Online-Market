@@ -1,6 +1,6 @@
 # Kabarak Online Market
 
-This is a simple online market webpage for **Kabarak Online Market**, showcasing different products such as shoes and shirts, with pricing, discount and brand information. The webpage also includes a footer with company info, help section, shopping categories and social media links. 
+This is a simple online market webpage for **Kabarak Online Market**, showcasing different products such as shoes and shirts, with pricing, discount and brand information. The webpage also includes a footer with company info, help section, shopping categories and social media links.
 
 ## Project Structure
 
@@ -24,7 +24,15 @@ The project consists of a several HTML files with linked CSS for styling and a J
      - Price (with discounts)
      - Discount percentage
 
-2. **Footer**:
+1. **Intergrated Chat app**:
+
+   - Buyers and sellers can communicate using a chat application intergrated in the
+     `<li>
+        <a href="more/whatsapp.html">our services</a>
+      </li>
+      `
+
+1. **Footer**:
    - Company details such as "About Us", "Privacy Policy", "Affiliate Program".
    - Help links like "FAQ", "Shipping", "Returns", "Order Status".
    - Categories for the online shop.
