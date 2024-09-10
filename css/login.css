@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.menubar1 {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    /* border: 5px solid #009688;
+    min-height: 70vh;*/
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35)0px 15px 35px;
+    background-color: #3449;
+    text-align: center;
+    overflow: auto;
+}
+
+.container h1 {
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-decoration-color: #009688;
+}
+
+.container h2 {
+    padding-bottom: 20px;
+    border-top: 0;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.container .inputs .user,
+.container .inputs .pass {
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(80, 79, 79);
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.container .btn {
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-weight: 800;
+    background-color: #009688;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    border: 3px solid #009688;
+    background-color: transparent;
+    color: bisque;
+
+}
+
+.container .reset a,
+.container .signup a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.container .reset a:hover,
+.container .signup a:hover {
+    color: lightblue;
+
+}
+
+.container .signup {
+    color: #fcfcfc;
+    padding-bottom: 10px;
+}
